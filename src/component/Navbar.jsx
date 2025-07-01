@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -34,7 +35,6 @@ const Navbar = () => {
     }
   };
 
-  // close dropdown on outside click
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -60,7 +60,7 @@ const Navbar = () => {
       <nav className="bg-white/60 backdrop-blur-md fixed top-0 right-0 left-0 text-black px-6 shadow-md z-10">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <NavLink to="/" className="flex items-center space-x-2">
-            <img className="w-18" src="/logo.png" alt="E-cell Logo" />
+            <img className="w-14" src="/logo.png" alt="E-cell Logo" />
             <h1 className="text-xl capitalize font-bold cursor-pointer">
               E-cell HIT haldia
             </h1>
@@ -82,11 +82,10 @@ const Navbar = () => {
               </NavLink>
             ))}
 
-            {/* 🔥 Google Login/Logout/Profile */}
             {user ? (
               <div className="relative" ref={dropdownRef}>
                 <img
-                  src={user.photoURL}
+                  src={user.photoURL || "/default-avatar.png"}
                   alt="profile"
                   className="w-10 h-10 rounded-full cursor-pointer"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -112,7 +111,6 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Mobile menu open button */}
           <div className="md:hidden">
             <button onClick={() => setIsOpen(true)} aria-label="Open menu">
               <Menu className="w-6 h-6" />
@@ -121,7 +119,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-gray-900 text-white transform transition-transform duration-300 z-50 ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -151,7 +149,6 @@ const Navbar = () => {
             </NavLink>
           ))}
 
-          {/* Mobile Login/Logout */}
           {user ? (
             <>
               <div className="flex items-center gap-2 mt-4">
@@ -185,7 +182,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className="fixed inset-0 bg-opacity-40 backdrop-blur-sm z-5"
+          className="fixed inset-0 bg-opacity-40 backdrop-blur-sm z-40"
           onClick={() => setIsOpen(false)}
         />
       )}
