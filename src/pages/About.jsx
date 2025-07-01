@@ -29,10 +29,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className="mt-20 bg-black text-white">
+    <div className="mt-5 bg-black text-white">
       <section
         ref={containerRef}
-        className="max-w-6xl mx-auto px-6 py-16 rounded-lg shadow-md mt-20"
+        className="max-w-6xl mx-auto px-6 py-15 rounded-lg shadow-md "
       >
         <h2 className="fade-item text-4xl font-extrabold text-center mb-6">
           About E-Cell HIT Haldia

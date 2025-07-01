@@ -64,10 +64,10 @@ const Event = () => {
   }, []);
 
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white mt-5">
       <section
         ref={containerRef}
-        className=" max-w-6xl mx-auto px-6 py-16 mt-24"
+        className=" max-w-6xl mx-auto px-6 py-16 "
         aria-label="Event Section"
       >
         {/* ------------------ Upcoming Events ------------------ */}

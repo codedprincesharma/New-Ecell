@@ -57,7 +57,7 @@ const ECellContact = () => {
   return (
     <section
       ref={sectionRef}
-      className=" text-white bg-black px-4 sm:px-6 py-10 md:py-20 max-h-[90vh] "
+      className=" text-white bg-black px-4 sm:px-6 py-10 md:py-20 "
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Side - Info + Map */}
