@@ -51,7 +51,7 @@ const Event = () => {
       // Past Events Animation: Slide in from left with skew
       gsap.from(".past-event-card", {
         opacity: 1,
-        x: -40,
+        x: 0,
         skewX: 5,
         duration: 0.6,
         stagger: 0.15,
@@ -103,26 +103,29 @@ const Event = () => {
           ))}
         </div>
 
+
+
         {/* ------------------ Past Events ------------------ */}
         <h2 className="text-4xl font-extrabold text-center mt-24 mb-12 font-[Orbitron]">
           Past Events
         </h2>
 
-        <div className="grid gap-10 md:grid-cols-2">
-          {pastEvents.map(({ title, description }, index) => (
-            <article
-              key={index}
-              className="past-event-card p-6 bg-[#1a1a1a] rounded-lg border border-gray-700 hover:shadow-lg transition-all duration-300"
-            >
-              <h3 className="text-xl font-bold mb-3 font-[Orbitron]">
-                {title}
-              </h3>
-              <p className="leading-relaxed whitespace-pre-wrap">
-                {description}
-              </p>
-            </article>
-          ))}
-        </div>
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 sm:px-6">
+  {pastEvents.map(({ title, description }, index) => (
+    <article
+      key={index}
+      className="past-event-card w-full max-w-md mx-auto p-4 sm:p-6 bg-[#1a1a1a] rounded-xl border border-gray-700 hover:shadow-lg transition-all duration-300"
+    >
+      <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 font-[Orbitron]">
+        {title}
+      </h3>
+      <p className="text-sm sm:text-base leading-relaxed break-words">
+        {description}
+      </p>
+    </article>
+  ))}
+</div>
+
       </section>
     </div>
   );
