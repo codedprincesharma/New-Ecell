@@ -34,7 +34,7 @@ const About = () => {
         ref={containerRef}
         className="max-w-6xl mx-auto px-6 py-15 rounded-lg shadow-md "
       >
-        <h2 className="fade-item text-4xl font-extrabold text-center mb-6">
+        <h2 className="fade-item text-4xl font-extrabold font-[Orbitron] text-blue-500 text-center mb-6">
           About E-Cell HIT Haldia
         </h2>
 
@@ -50,12 +50,12 @@ const About = () => {
           E-Cell acts as a launchpad for budding entrepreneurs to turn ideas into impactful ventures.
         </p>
 
-        <p className="fade-item text-lg leading-relaxed max-w-4xl mx-auto text-center mb-8">
+        <p className="fade-item text-lg  leading-relaxed max-w-4xl mx-auto text-center mb-8">
           We are proud to be in active collaboration with E-Cell IIT Bombay and E-Cell NIT Hamirpur,
           strengthening our reach, insights, and opportunities through a shared vision for student-led innovation and startup culture.
         </p>
 
-        <h3 className="fade-item text-3xl font-bold text-center mb-4 font-[Orbitron]">
+        <h3 className="fade-item text-3xl font-bold text-center mb-4 text-blue-500 font-[Orbitron]">
           Building Of E-Cell
         </h3>
 

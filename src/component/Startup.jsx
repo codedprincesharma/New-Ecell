@@ -85,7 +85,7 @@ const Startup = () => {
           Our Startups
         </h2>
         <div className="grid grid-cols-1 gap-4">
-          {/* Only GymPass */}
+          {/* GymPass */}
           <div className="p-6 bg-gray-200 shadow-md rounded-xl text-gray-700 text-sm sm:text-base leading-relaxed">
             <strong className="block text-lg sm:text-xl font-semibold mb-2 text-blue-700">
               Startup 1: GymPass
@@ -98,14 +98,25 @@ const Startup = () => {
             helps local gyms boost visibility and footfall through a centralized platform,
             creating a win-win for users and fitness centers alike.
           </div>
+
+          {/* BullBear AI */}
+          <div className="p-6 bg-gray-200 shadow-md rounded-xl text-gray-700 text-sm sm:text-base leading-relaxed">
+            <strong className="block text-lg sm:text-xl font-semibold mb-2 text-blue-700">
+              Startup 2: BullBear AI
+            </strong>
+            BullBear AI is a cutting-edge fintech platform that is revolutionizing the process
+            of making investment decisions. Using advanced machine learning, real-time sentiment
+            analysis, and automated trading bots, it empowers both individual investors and institutions
+            to trade smarter, reduce risk, and protect wealth. Designed for clarity in chaotic markets,
+            BullBear AI replaces emotion and guesswork with intelligent, data-driven action. Built by a
+            passionate team of innovators, it’s not just another trading tool—it’s your personal investment
+            brain, setting a new benchmark in the future of investing.
+          </div>
         </div>
       </div>
 
       {/* Funds Raised */}
-      <div
-        ref={fundsRef}
-        className="section-group funds-raised flex flex-col gap-2"
-      >
+      <div ref={fundsRef} className="section-group funds-raised flex flex-col gap-2">
         <h2 className="text-2xl font-[Orbitron] sm:text-3xl md:text-4xl font-semibold text-blue-600 underline underline-offset-8 decoration-green-500">
           Funds Raised
         </h2>
