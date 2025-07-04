@@ -103,7 +103,7 @@ const teamData = {
     {
       name: "Deeya Gurung ",
       role: "PR",
-      img: "https://media.licdn.com/dms/image/v2/D4E03AQFTxhwRmHYwsw/profile-displayphoto-shrink_400_400/B4EZZsNXYsHEAg-/0/1745572165664?e=1753315200&v=beta&t=RYTcijOF2TN-HtyTJnh4SuRFuU1wqdp508_sF8POQS4",
+      img: "../public/pr/diya.jpeg",
       linkedin:
         "https://www.linkedin.com/in/aman-roy-5172972ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -210,31 +210,26 @@ const teamData = {
   ],
   "Tech Team": [
     {
-      name: "Shreya Mandal",
-      role: "Web Developer",
-      img: "https://media.licdn.com/dms/image/v2/D4E03AQGw1fMgbuQBbw/profile-displayphoto-shrink_400_400/B4EZV35QzYHgAg-/0/1741473255691?e=1753315200&v=beta&t=27hfV10yX5pIeP-TeeSxOzm7QQ5_0y8IlQGUg_SqDjQ",
-      linkedin: "https://linkedin.com/in/rajsingh",
-    },
-    {
       name: "Priyanshu Singha Roy",
       role: "Backend Developer",
-      img: "https://randomuser.me/api/portraits/women/14.jpg",
-      linkedin: "https://linkedin.com/in/simrankaur",
+      img: "https://media.licdn.com/dms/image/v2/D5635AQE1xpNdDBi5-A/profile-framedphoto-shrink_400_400/B56ZbfhYKUHUAc-/0/1747506791628?e=1752210000&v=beta&t=PmBsR0g1IQqZ2ss2RxCMapM1R8Yv0E1fYrrMqt0cMf4",
+      linkedin: "https://www.linkedin.com/in/priyanshu-singha-roy-557624294/",
     },
     {
       name: "Prince Sharma",
       role: "FullStack Developer",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
+      img: "https://media.licdn.com/dms/image/v2/D5603AQEmn00nuFBMnw/profile-displayphoto-shrink_400_400/B56ZbaYEAcGoAg-/0/1747420463936?e=1756944000&v=beta&t=2WOiENcFnTo_oHRL-S0ho1cS3Y7DpUhq4ZuLN7g6cLo",
       linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
     },
   ],
   "Graphic Designer": [
     {
-      name: "Prince Sharma",
-      role: "GD Lead",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
-      linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
+      name: "Riya Singh",
+      role: "GD",
+      img: "",
+      linkedin: "https://www.linkedin.com/in/riya-singh-0a756025a/",
     },
+
     {
       name: "Ranjeet Kumar Rajak ",
       role: "GD",
@@ -242,12 +237,7 @@ const teamData = {
       linkedin:
         "https://www.linkedin.com/in/ranjeet-kumar-rajak-10b5752a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      name: "Riya Singh",
-      role: "GD",
-      img: "",
-      linkedin: "https://www.linkedin.com/in/riya-singh-0a756025a/",
-    },
+
     {
       name: "Aditya kumar",
       role: "GD",
@@ -269,11 +259,13 @@ const teamData = {
   ],
   "Content Writer": [
     {
-      name: "Prince Sharma",
-      role: "Content Lead",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
-      linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
+      name: "Bitan Sangram ",
+      role: "Content Writter",
+      img: "",
+      linkedin:
+        "https://www.linkedin.com/in/bitansangram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
+
     {
       name: "Nitin Raj",
       role: "Content Writter",
@@ -281,13 +273,7 @@ const teamData = {
       linkedin:
         "https://www.linkedin.com/in/nitin-raj-434263284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      name: "Bitan Sangram ",
-      role: "Content Writter",
-      img: "",
-      linkedin:
-        "https://www.linkedin.com/in/bitansangram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    },
+
     {
       name: "Raj Shekhar",
       role: "Content Writter",
@@ -297,10 +283,11 @@ const teamData = {
   ],
   "Video Editor": [
     {
-      name: "Prince Sharma",
-      role: "Video Editor Lead",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
-      linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
+      name: "Sumit Raj Bharti",
+      role: "Video Editor",
+      img: "https://media.licdn.com/dms/image/v2/D5603AQGXWDGXK1bWnw/profile-displayphoto-shrink_400_400/B56ZcVQu8.HEAg-/0/1748408398552?e=1756944000&v=beta&t=WgyxfzGNkWD8o1oYPv_ifFbc_dnx7bFc1CLAyPlew8k",
+      linkedin:
+        "https://www.linkedin.com/in/sumit-raj-bharti-0292aa2a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Priyanshu Kumar",
@@ -309,14 +296,8 @@ const teamData = {
       linkedin:
         "https://www.linkedin.com/in/priyanshu-kumar-a1b01232b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      name: "Sumit Raj Bharti",
-      role: "Video Editor",
-      img: "",
-      linkedin:
-        "https://www.linkedin.com/in/sumit-raj-bharti-0292aa2a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    },
   ],
+     
   Photographer: [
     {
       name: "Gouri Shankar Mahato ",
@@ -331,20 +312,6 @@ const teamData = {
       img: "",
       linkedin:
         "https://www.linkedin.com/in/soumyadeep-patra-a1932a308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    },
-  ],
-  "Media Team": [
-    {
-      name: "Prince Sharma",
-      role: "Media lead",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
-      linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
-    },
-    {
-      name: "",
-      role: "Media lead",
-      img: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/473404538_974040434308262_8419328407267357385_n.jpg?ccb=11-4&oh=01_Q5Aa1gG1M7MI8WRlu5g5Pl1Hx4z0p1NwgJaPBJSp3DAldv961g&oe=683AEF65&_nc_sid=5e03e0&_nc_cat=107",
-      linkedin: "https://www.linkedin.com/in/prince-sharma-raj-065544330/",
     },
   ],
 };
